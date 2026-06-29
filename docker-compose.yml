@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    image: dockalpana/cicd-app:latest
+    container_name: cicd-app
+    ports:
+      - "3000:3000"
